@@ -15,13 +15,6 @@ public class MessageResource {
 
 	MessageService service = new MessageService();
 
-//	@GET
-//	@Produces(MediaType.TEXT_PLAIN)
-//	public String get() 
-//	{
-//		return "hi";
-//	}
-	
 	@GET
 	@Produces(MediaType.APPLICATION_XML)
 	public List<Message> getMessages() {
